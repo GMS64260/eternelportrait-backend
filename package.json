@@ -8,10 +8,7 @@
     "deploy": "vercel --prod"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.45.4",
-    "multer": "^1.4.5",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1"
+    "@supabase/supabase-js": "^2.39.3"
   },
   "engines": {
     "node": ">=18.0.0"
