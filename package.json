@@ -2,11 +2,7 @@
   "name": "eternel-backend",
   "version": "1.0.0",
   "description": "Backend gratuit pour EternelPortrait.ai",
-  "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build",
-    "deploy": "vercel --prod"
-  },
+  "type": "module",
   "dependencies": {
     "@supabase/supabase-js": "^2.39.3"
   },
