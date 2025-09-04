@@ -131,7 +131,7 @@ async function callHuggingFaceAPI(prompt, imageUrl) {
     
     // Utilisation de FLUX.1-schnell pour génération rapide
     const response = await fetch(
-      'https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell',
+      'https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0',
       {
         method: 'POST',
         headers: {
